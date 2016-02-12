@@ -1,6 +1,6 @@
 import java.io.PrintWriter; //even though the class it extends imports this, it won't compile otherwise
 
-public class Tester extends Tools {
+public class ExtendingTester extends Tools {
     public static double equation1() {
         return (3*Math.PI*Math.sin(Math.toRadians(187))+Math.abs(Math.cos(Math.toRadians(122))));
     }
